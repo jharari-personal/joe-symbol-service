@@ -4443,7 +4443,8 @@
           "Gold",
           "Bullion"
         ],
-        "Name": "XAU/USD"
+        "Name": "XAU/USD",
+        "AmountMode": "Y"
       },
       {
         "Description": "American International Group Inc",

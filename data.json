@@ -4438,13 +4438,12 @@
         "Description": "Gold vs. American Dollar",
         "DisplayName": "XAU/USD",
         "UnderlyingUnit": "Ounces",
-        "AmountMode": "N",
+        "AmountMode": "Y",
         "Alternatives": [
           "Gold",
           "Bullion"
         ],
-        "Name": "XAU/USD",
-        "AmountMode": "Y"
+        "Name": "XAU/USD"
       },
       {
         "Description": "American International Group Inc",

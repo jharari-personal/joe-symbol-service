@@ -18,61 +18,61 @@
     "localized": {
     "en": {
     "symbolService": {
-    "categoriesEndpoint": "https://symbolservicex.fxcorporate.com/CAS/data?type=cat&lc=enu",
+    "categoriesEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=cat&lc=enu&platform=pwa",
     "categoriesFallback": "assets/symbol-service-fallback/symbols_categories.json",
-    "instrumentsEndpoint": "https://symbolservicex.fxcorporate.com/CAS/data?type=alt&lc=enu",
+    "instrumentsEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=alt&lc=enu&platform=pwa",
     "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoEnu.json"
     },
     "newsService": {
-    "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=20",
+    "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8",
     "fallbackEndpoint": "assets/news-service-fallback/news.json"
     }
     },
     "es": {
     "symbolService": {
-    "categoriesEndpoint": "https://symbolservicex.fxcorporate.com/CAS/data?type=cat&lc=esp",
+    "categoriesEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=cat&lc=esp&platform=pwa",
     "categoriesFallback": "assets/symbol-service-fallback/symbols_categories_esp.json",
-    "instrumentsEndpoint": "https://symbolservicex.fxcorporate.com/CAS/data?type=alt&lc=esp",
+    "instrumentsEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=alt&lc=esp&platform=pwa",
     "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoEsp.json"
     },
     "newsService": {
-    "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=20&language=es",
+    "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=es",
     "fallbackEndpoint": "assets/news-service-fallback/news-es.json"
     }
     },
     "zh": {
     "symbolService": {
-    "categoriesEndpoint": "https://symbolservicex.fxcorporate.com/CAS/data?type=cat&lc=chs",
+    "categoriesEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=cat&lc=chs&platform=pwa",
     "categoriesFallback": "assets/symbol-service-fallback/symbols_categories_chs.json",
-    "instrumentsEndpoint": "https://symbolservicex.fxcorporate.com/CAS/data?type=alt&lc=chs",
+    "instrumentsEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=alt&lc=chs&platform=pwa",
     "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoChs.json"
     },
     "newsService": {
-    "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=20&language=zhs",
+    "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=zhs",
     "fallbackEndpoint": "assets/news-service-fallback/news-zh.json"
     }
     },
     "zh-hk": {
     "symbolService": {
-    "categoriesEndpoint": "https://symbolservicex.fxcorporate.com/CAS/data?type=cat&lc=cht",
+    "categoriesEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=cat&lc=cht&platform=pwa",
     "categoriesFallback": "assets/symbol-service-fallback/symbols_categories_cht.json",
-    "instrumentsEndpoint": "https://symbolservicex.fxcorporate.com/CAS/data?type=alt&lc=cht",
+    "instrumentsEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=alt&lc=cht&platform=pwa",
     "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoCht.json"
     },
     "newsService": {
-    "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=20&language=zht",
+    "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=zht",
     "fallbackEndpoint": "assets/news-service-fallback/news-zhtr.json"
     }
     },
     "default": {
     "symbolService": {
-    "categoriesEndpoint": "https://symbolservicex.fxcorporate.com/CAS/data?type=cat&lc=enu",
+    "categoriesEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=cat&lc=enu&platform=pwa",
     "categoriesFallback": "assets/symbol-service-fallback/symbols_categories.json",
-    "instrumentsEndpoint": "https://symbolservicex.fxcorporate.com/CAS/data?type=alt&lc=enu",
+    "instrumentsEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=alt&lc=enu&platform=pwa",
     "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoEnu.json"
     },
     "newsService": {
-    "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=20",
+    "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8",
     "fallbackEndpoint": "assets/news-service-fallback/news.json"
     }
     }

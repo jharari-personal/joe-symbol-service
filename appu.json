@@ -1,8 +1,8 @@
 {
     "fxclite": {
-      "connection": "QAReal",
+      "connection": "Real",
       "timeout": 30000,
-      "tradingSystemUrl": "https://fxcorpx.fxcorporate.com"
+      "tradingSystemUrl": "https://fxcorporate.com"
     },
     "fxcliteDemo": {
       "connection": "Demo",
@@ -152,7 +152,31 @@
     "loggingServiceConfiguration": {
       "enabled": true,
       "environment": "appu-mobile",
-      "sentryServiceURL": "https://39aa157e5a4f4281bf84d4ba16ebc352@sentry.dev.fxcorp/9"
-    }
+      "sentryServiceURL": "https://39aa157e5a4f4281bf84d4ba16ebc352@sentry.dev.fxcorp/9",
+      "sampleRate": 0.2,
+      "fcLiteLogLevel": "debug"
+    },
+    "featureToggleSettings": [
+        {
+          "name": "myFXCM",
+          "enabled": false,
+          "description": "PWADEV-1945"
+        },
+        {
+          "name": "closeAllPositions",
+          "enabled": false,
+          "description": "PWADEV-3002"
+        },
+        {
+          "name": "instrumentPriceChange",
+          "enabled": false,
+          "description": "PWADEV-2366"
+        },
+        {
+          "name": "ResearchScreen",
+          "enabled": false,
+          "description": "PWADEV-2644"
+        }
+      ]
   }
   

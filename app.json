@@ -152,6 +152,30 @@
   "loggingServiceConfiguration": {
     "enabled": true,
     "environment": "app-mobile",
-    "sentryServiceURL": "https://da4814ec6a40485985948af6c530fdde@o1336626.ingest.sentry.io/6763062"
-  }
+    "sentryServiceURL": "https://da4814ec6a40485985948af6c530fdde@o1336626.ingest.sentry.io/6763062",
+    "sampleRate": 0.2,
+    "fcLiteLogLevel": "debug"
+  },
+  "featureToggleSettings": [
+    {
+      "name": "myFXCM",
+      "enabled": false,
+      "description": "PWADEV-1945"
+    },
+    {
+      "name": "closeAllPositions",
+      "enabled": false,
+      "description": "PWADEV-3002"
+    },
+    {
+      "name": "instrumentPriceChange",
+      "enabled": false,
+      "description": "PWADEV-2366"
+    },
+    {
+      "name": "ResearchScreen",
+      "enabled": false,
+      "description": "PWADEV-2644"
+    }
+  ]
 }

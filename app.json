@@ -1,0 +1,157 @@
+{
+  "fxclite": {
+    "connection": "Real",
+    "timeout": 30000,
+    "tradingSystemUrl": "https://www.fxcorporate.com"
+  },
+  "fxcliteDemo": {
+    "connection": "Demo",
+    "timeout": 30000,
+    "tradingSystemUrl": "https://www.fxcorporate.com"
+  },
+  "symbolService": {
+    "timeout": 30000
+  },
+  "newsService": {
+    "timeout": 30000
+  },
+  "iamService": {
+    "demo": {
+      "authenticationEndpoint": "https://endpoints.fxcorporate.com/iam/authenticate",
+      "refreshEndpoint": "https://endpoints.fxcorporate.com/iam/refresh",
+      "tradingSystemsEndpoint": "https://endpoints.fxcorporate.com/iam/trading-systems/",
+      "logoutEndpoint": "https://endpoints.fxcorporate.com/iam/logout"
+    },
+    "real": {
+      "authenticationEndpoint": "https://endpoints.fxcorporate.com/iam/authenticate",
+      "refreshEndpoint": "https://endpoints.fxcorporate.com/iam/refresh",
+      "tradingSystemsEndpoint": "https://endpoints.fxcorporate.com/iam/trading-systems/",
+      "logoutEndpoint": "https://endpoints.fxcorporate.com/iam/logout"
+    }
+  },
+  "localized": {
+    "de": {
+      "symbolService": {
+        "categoriesEndpoint": "https://endpoints.fxcorporate.com/symbol/data?type=cat&lc=deu&platform=pwa",
+        "categoriesFallback": "assets/symbol-service-fallback/symbols_categories_deu.json",
+        "instrumentsEndpoint": "https://endpoints.fxcorporate.com/symbol/data?type=alt&lc=deu&platform=pwa",
+        "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoDeu.json"
+      },
+      "newsService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=de",
+        "fallbackEndpoint": "assets/news-service-fallback/news-de.json"
+      }
+    },
+    "el": {
+      "symbolService": {
+        "categoriesEndpoint": "https://endpoints.fxcorporate.com/symbol/data?type=cat&lc=gre&platform=pwa",
+        "categoriesFallback": "assets/symbol-service-fallback/symbols_categories_gre.json",
+        "instrumentsEndpoint": "https://endpoints.fxcorporate.com/symbol/data?type=alt&lc=gre&platform=pwa",
+        "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoGre.json"
+      },
+      "newsService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=gre",
+        "fallbackEndpoint": "assets/news-service-fallback/news-el.json"
+      }
+    },
+    "en": {
+      "symbolService": {
+        "categoriesEndpoint": "https://endpoints.fxcorporate.com/symbol/data?type=cat&lc=enu&platform=pwa",
+        "categoriesFallback": "assets/symbol-service-fallback/symbols_categories.json",
+        "instrumentsEndpoint": "https://endpoints.fxcorporate.com/symbol/data?type=alt&lc=enu&platform=pwa",
+        "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoEnu.json"
+      },
+      "newsService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8",
+        "fallbackEndpoint": "assets/news-service-fallback/news.json"
+      }
+    },
+    "es": {
+      "symbolService": {
+        "categoriesEndpoint": "https://endpoints.fxcorporate.com/symbol/data?type=cat&lc=esp&platform=pwa",
+        "categoriesFallback": "assets/symbol-service-fallback/symbols_categories_esp.json",
+        "instrumentsEndpoint": "https://endpoints.fxcorporate.com/symbol/data?type=alt&lc=esp&platform=pwa",
+        "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoEsp.json"
+      },
+      "newsService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=es",
+        "fallbackEndpoint": "assets/news-service-fallback/news-es.json"
+      }
+    },
+    "fr": {
+      "symbolService": {
+        "categoriesEndpoint": "https://endpoints.fxcorporate.com/symbol/data?type=cat&lc=fra&platform=pwa",
+        "categoriesFallback": "assets/symbol-service-fallback/symbols_categories_fr.json",
+        "instrumentsEndpoint": "https://endpoints.fxcorporate.com/symbol/data?type=alt&lc=fra&platform=pwa",
+        "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoFr.json"
+      },
+      "newsService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=fr",
+        "fallbackEndpoint": "assets/news-service-fallback/news-fr.json"
+      }
+    },
+    "it": {
+      "symbolService": {
+        "categoriesEndpoint": "https://endpoints.fxcorporate.com/symbol/data?type=cat&lc=ita&platform=pwa",
+        "categoriesFallback": "assets/symbol-service-fallback/symbols_categories_ita.json",
+        "instrumentsEndpoint": "https://endpoints.fxcorporate.com/symbol/data?type=alt&lc=ita&platform=pwa",
+        "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoIta.json"
+      },
+      "newsService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=it",
+        "fallbackEndpoint": "assets/news-service-fallback/news-it.json"
+      }
+    },
+    "zh": {
+      "symbolService": {
+        "categoriesEndpoint": "https://endpoints.fxcorporate.com/symbol/data?type=cat&lc=chs&platform=pwa",
+        "categoriesFallback": "assets/symbol-service-fallback/symbols_categories_chs.json",
+        "instrumentsEndpoint": "https://endpoints.fxcorporate.com/symbol/data?type=alt&lc=chs&platform=pwa",
+        "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoChs.json"
+      },
+      "newsService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=zhs",
+        "fallbackEndpoint": "assets/news-service-fallback/news-zh.json"
+      }
+    },
+    "zh-hk": {
+      "symbolService": {
+        "categoriesEndpoint": "https://endpoints.fxcorporate.com/symbol/data?type=cat&lc=cht&platform=pwa",
+        "categoriesFallback": "assets/symbol-service-fallback/symbols_categories_cht.json",
+        "instrumentsEndpoint": "https://endpoints.fxcorporate.com/symbol/data?type=alt&lc=cht&platform=pwa",
+        "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoCht.json"
+      },
+      "newsService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=zht",
+        "fallbackEndpoint": "assets/news-service-fallback/news-zhtr.json"
+      }
+    },
+    "default": {
+      "symbolService": {
+        "categoriesEndpoint": "https://endpoints.fxcorporate.com/symbol/data?type=cat&lc=enu&platform=pwa",
+        "categoriesFallback": "assets/symbol-service-fallback/symbols_categories.json",
+        "instrumentsEndpoint": "https://endpoints.fxcorporate.com/symbol/data?type=alt&lc=enu&platform=pwa",
+        "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoEnu.json"
+      },
+      "newsService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8",
+        "fallbackEndpoint": "assets/news-service-fallback/news.json"
+      }
+    }
+  },
+  "assets": {
+    "symbolsService": {
+      "dynamicCategoryIconFallback": "assets/icon-default.png",
+      "staticCategoryIconFallback": "assets/markets-default.png"
+    }
+  },
+  "serviceWorker": {
+    "forceUpdate": true
+  },
+  "appName": "PWA Mobile",
+  "loggingServiceConfiguration": {
+    "enabled": true,
+    "environment": "app-mobile",
+    "sentryServiceURL": "https://da4814ec6a40485985948af6c530fdde@o1336626.ingest.sentry.io/6763062"
+  }
+}

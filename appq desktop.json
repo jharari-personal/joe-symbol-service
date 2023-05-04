@@ -15,6 +15,9 @@
   "newsService": {
     "timeout": 30000
   },
+  "calendarService": {
+    "timeout": 30000
+  },
   "iamService": {
     "demo": {
       "authenticationEndpoint": "https://endpointsq.fxcorporate.com/iam/authenticate",
@@ -38,8 +41,11 @@
         "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoDeu.json"
       },
       "newsService": {
-        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=de",
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=20&language=de",
         "fallbackEndpoint": "assets/news-service-fallback/news-de.json"
+      },
+      "calendarService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=de&description=true"
       }
     },
     "el": {
@@ -50,8 +56,11 @@
         "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoGre.json"
       },
       "newsService": {
-        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=gre",
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=20&language=gre",
         "fallbackEndpoint": "assets/news-service-fallback/news-el.json"
+      },
+      "calendarService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=gr&description=true"
       }
     },
     "en": {
@@ -62,8 +71,11 @@
         "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoEnu.json"
       },
       "newsService": {
-        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8",
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=20",
         "fallbackEndpoint": "assets/news-service-fallback/news.json"
+      },
+      "calendarService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=en&description=true"
       }
     },
     "es": {
@@ -74,8 +86,11 @@
         "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoEsp.json"
       },
       "newsService": {
-        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=es",
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=20&language=es",
         "fallbackEndpoint": "assets/news-service-fallback/news-es.json"
+      },
+      "calendarService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=es&description=true"
       }
     },
     "fr": {
@@ -86,8 +101,11 @@
         "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoFr.json"
       },
       "newsService": {
-        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=fr",
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=20&language=fr",
         "fallbackEndpoint": "assets/news-service-fallback/news-fr.json"
+      },
+      "calendarService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=fr&description=true"
       }
     },
     "it": {
@@ -98,8 +116,11 @@
         "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoIta.json"
       },
       "newsService": {
-        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=it",
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=20&language=it",
         "fallbackEndpoint": "assets/news-service-fallback/news-it.json"
+      },
+      "calendarService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=it&description=true"
       }
     },
     "zh": {
@@ -110,8 +131,11 @@
         "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoChs.json"
       },
       "newsService": {
-        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=zhs",
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=20&language=zhs",
         "fallbackEndpoint": "assets/news-service-fallback/news-zh.json"
+      },
+      "calendarService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=zhs&description=true"
       }
     },
     "zh-hk": {
@@ -122,8 +146,11 @@
         "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoCht.json"
       },
       "newsService": {
-        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=zht",
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=20&language=zht",
         "fallbackEndpoint": "assets/news-service-fallback/news-zhtr.json"
+      },
+      "calendarService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=zh-hk&description=true"
       }
     },
     "default": {
@@ -134,8 +161,11 @@
         "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoEnu.json"
       },
       "newsService": {
-        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8",
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=20",
         "fallbackEndpoint": "assets/news-service-fallback/news.json"
+      },
+      "calendarService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=en&description=true"
       }
     }
   },
@@ -150,8 +180,20 @@
   },
   "appName": "PWA Desktop",
   "loggingServiceConfiguration": {
+    "sentryServiceURL": "https://39aa157e5a4f4281bf84d4ba16ebc352@sentry.dev.fxcorp/9",
     "enabled": true,
     "environment": "appq-desktop",
-    "sentryServiceURL": "https://39aa157e5a4f4281bf84d4ba16ebc352@sentry.dev.fxcorp/9"
-  }
+    "sampleRate": 0.1
+  },
+  "featureToggleSettings": [
+    {"name": "myFXCM","enabled": true,"description": "PWADEV-1422"},
+    {"name": "instrumentPriceChange","enabled": true,"description": "PWADEV-1187"},
+    {"name": "multiCharts","enabled": false,"description": "PWADEV-3061"},
+    {"name": "closeAllPositions","enabled": false,"description": "PWADEV-2997"},
+    { "name": "technicalAnalyzer", "enabled": false, "description": "PWADEV-2807"},
+    { "name": "economicCalendar", "enabled": false, "description": "PWADEV-1092"},
+    { "name": "stockScreener", "enabled": false, "description": "PWADEV-1098"},
+    { "name": "cfdExpirations", "enabled": false, "description": "PWADEV-2607"},
+    { "name": "tradingHours", "enabled": false, "description": "PWADEV-2608"}
+  ]
 }

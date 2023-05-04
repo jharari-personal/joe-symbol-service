@@ -1,41 +1,181 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=no"
-    />
-    <title>FXCM</title>
-    <meta name="description" content="FXCM - Reactive Trading Station" />
-    <meta name="theme-color" content="#131314" />
-    <link rel="apple-touch-icon" href="icon-192x192.png" />
-    <link rel="icon" href="favicon.ico" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="favicon-196x196.png"
-      sizes="196x196"
-    />
-    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
-
-    <meta name="application-name" content="FXCM" />
-    <meta name="msapplication-TileColor" content="#283545" />
-    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
-    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
-    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
-    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
-    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
-    <meta name="revision" content="383bde4">
-    <script type="module" crossorigin src="/mobile/assets/index.05d7ac41.js"></script>
-    <link rel="stylesheet" href="/mobile/assets/index.2c408bea.css">
-  <link rel="manifest" href="/mobile/manifest.webmanifest"></head>
-
-  <body>
-    <div id="root"></div>
-    
-  </body>
-</html>
+{
+  "fxclite": {
+    "connection": "Real",
+    "timeout": 30000,
+    "tradingSystemUrl": "https://www.fxcorporate.com"
+  },
+  "fxcliteDemo": {
+    "connection": "Demo",
+    "timeout": 30000,
+    "tradingSystemUrl": "https://www.fxcorporate.com"
+  },
+  "symbolService": {
+    "timeout": 30000
+  },
+  "newsService": {
+    "timeout": 30000
+  },
+  "iamService": {
+    "demo": {
+      "authenticationEndpoint": "https://endpointsq.fxcorporate.com/iam/authenticate",
+      "refreshEndpoint": "https://endpointsq.fxcorporate.com/iam/refresh",
+      "tradingSystemsEndpoint": "https://endpointsq.fxcorporate.com/iam/trading-systems/",
+      "logoutEndpoint": "https://endpointsq.fxcorporate.com/iam/logout"
+    },
+    "real": {
+      "authenticationEndpoint": "https://endpointsq.fxcorporate.com/iam/authenticate",
+      "refreshEndpoint": "https://endpointsq.fxcorporate.com/iam/refresh",
+      "tradingSystemsEndpoint": "https://endpointsq.fxcorporate.com/iam/trading-systems/",
+      "logoutEndpoint": "https://endpointsq.fxcorporate.com/iam/logout"
+    }
+  },
+  "localized": {
+    "de": {
+      "symbolService": {
+        "categoriesEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=cat&lc=deu&platform=pwa",
+        "categoriesFallback": "assets/symbol-service-fallback/symbols_categories_deu.json",
+        "instrumentsEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=alt&lc=deu&platform=pwa",
+        "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoDeu.json"
+      },
+      "newsService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=de",
+        "fallbackEndpoint": "assets/news-service-fallback/news-de.json"
+      }
+    },
+    "el": {
+      "symbolService": {
+        "categoriesEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=cat&lc=gre&platform=pwa",
+        "categoriesFallback": "assets/symbol-service-fallback/symbols_categories_gre.json",
+        "instrumentsEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=alt&lc=gre&platform=pwa",
+        "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoGre.json"
+      },
+      "newsService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=gre",
+        "fallbackEndpoint": "assets/news-service-fallback/news-el.json"
+      }
+    },
+    "en": {
+      "symbolService": {
+        "categoriesEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=cat&lc=enu&platform=pwa",
+        "categoriesFallback": "assets/symbol-service-fallback/symbols_categories.json",
+        "instrumentsEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=alt&lc=enu&platform=pwa",
+        "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoEnu.json"
+      },
+      "newsService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8",
+        "fallbackEndpoint": "assets/news-service-fallback/news.json"
+      }
+    },
+    "es": {
+      "symbolService": {
+        "categoriesEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=cat&lc=esp&platform=pwa",
+        "categoriesFallback": "assets/symbol-service-fallback/symbols_categories_esp.json",
+        "instrumentsEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=alt&lc=esp&platform=pwa",
+        "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoEsp.json"
+      },
+      "newsService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=es",
+        "fallbackEndpoint": "assets/news-service-fallback/news-es.json"
+      }
+    },
+    "fr": {
+      "symbolService": {
+        "categoriesEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=cat&lc=fra&platform=pwa",
+        "categoriesFallback": "assets/symbol-service-fallback/symbols_categories_fr.json",
+        "instrumentsEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=alt&lc=fra&platform=pwa",
+        "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoFr.json"
+      },
+      "newsService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=fr",
+        "fallbackEndpoint": "assets/news-service-fallback/news-fr.json"
+      }
+    },
+    "it": {
+      "symbolService": {
+        "categoriesEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=cat&lc=ita&platform=pwa",
+        "categoriesFallback": "assets/symbol-service-fallback/symbols_categories_ita.json",
+        "instrumentsEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=alt&lc=ita&platform=pwa",
+        "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoIta.json"
+      },
+      "newsService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=it",
+        "fallbackEndpoint": "assets/news-service-fallback/news-it.json"
+      }
+    },
+    "zh": {
+      "symbolService": {
+        "categoriesEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=cat&lc=chs&platform=pwa",
+        "categoriesFallback": "assets/symbol-service-fallback/symbols_categories_chs.json",
+        "instrumentsEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=alt&lc=chs&platform=pwa",
+        "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoChs.json"
+      },
+      "newsService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=zhs",
+        "fallbackEndpoint": "assets/news-service-fallback/news-zh.json"
+      }
+    },
+    "zh-hk": {
+      "symbolService": {
+        "categoriesEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=cat&lc=cht&platform=pwa",
+        "categoriesFallback": "assets/symbol-service-fallback/symbols_categories_cht.json",
+        "instrumentsEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=alt&lc=cht&platform=pwa",
+        "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoCht.json"
+      },
+      "newsService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8&language=zht",
+        "fallbackEndpoint": "assets/news-service-fallback/news-zhtr.json"
+      }
+    },
+    "default": {
+      "symbolService": {
+        "categoriesEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=cat&lc=enu&platform=pwa",
+        "categoriesFallback": "assets/symbol-service-fallback/symbols_categories.json",
+        "instrumentsEndpoint": "https://endpointsq.fxcorporate.com/symbol/data?type=alt&lc=enu&platform=pwa",
+        "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoEnu.json"
+      },
+      "newsService": {
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=8",
+        "fallbackEndpoint": "assets/news-service-fallback/news.json"
+      }
+    }
+  },
+  "assets": {
+    "symbolsService": {
+      "dynamicCategoryIconFallback": "assets/icon-default.png",
+      "staticCategoryIconFallback": "assets/markets-default.png"
+    }
+  },
+  "serviceWorker": {
+    "forceUpdate": true
+  },
+  "appName": "PWA Mobile",
+  "loggingServiceConfiguration": {
+    "enabled": true,
+    "environment": "appu-mobile",
+    "fcLiteLogLevel": "debug",
+    "sampleRate": 0.2,
+    "sentryServiceURL": "https://39aa157e5a4f4281bf84d4ba16ebc352@sentry.dev.fxcorp/9"
+  },
+  "featureToggleSettings": [
+    {
+      "name": "closeAllPositions",
+      "description": "",
+      "enabled": false
+    },
+    {
+      "name": "instrumentPriceChange",
+      "description": "",
+      "enabled": false
+    },
+    {
+      "name": "myFXCM",
+      "description": "",
+      "enabled": false
+    },
+    {
+      "name": "ResearchScreen",
+      "description": "",
+      "enabled": false
+    }
+  ]
+}

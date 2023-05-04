@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>FXCM</title>
+    <meta name="description" content="FXCM - Reactive Trading Station" />
+    <meta name="theme-color" content="#131314" />
+    <link rel="apple-touch-icon" href="icon-192x192.png" />
+    <link rel="icon" href="favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="favicon-196x196.png"
+      sizes="196x196"
+    />
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
+
+    <meta name="application-name" content="FXCM" />
+    <meta name="msapplication-TileColor" content="#283545" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+    <meta name="revision" content="383bde4">
+    <script type="module" crossorigin src="/mobile/assets/index.05d7ac41.js"></script>
+    <link rel="stylesheet" href="/mobile/assets/index.2c408bea.css">
+  <link rel="manifest" href="/mobile/manifest.webmanifest"></head>
+
+  <body>
+    <div id="root"></div>
+    
+  </body>
+</html>

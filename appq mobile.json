@@ -18,6 +18,10 @@
   "calendarService": {
     "timeout": 30000
   },
+  "watchListService": {
+    "endpoint": "https://endpointsq.fxcm.com/watchlist",
+    "timeout": 10000
+  },
   "iamService": {
     "demo": {
       "authenticationEndpoint": "https://endpointsq.fxcorporate.com/iam/authenticate",
@@ -189,8 +193,9 @@
     {"name": "myFXCM","enabled": true,"description": "PWADEV-1945"},
     {"name": "instrumentPriceChange","enabled": true,"description": "PWADEV-3110"},
     {"name": "closeAllPositions","enabled": true,"description": "PWADEV-3127"},
-    {"name": "economicCalendar", "enabled": false, "description": ""},
-    {"name": "news", "enabled": false, "description": ""},
-    { "name": "SignUpBox", "enabled": true, "description": ""}
+    {"name": "economicCalendar", "enabled": true, "description": "PWADEV-2644"},
+    {"name": "news", "enabled": true, "description": "PWADEV-3058"},
+    {"name": "SignUpBox", "enabled": true, "description": "PWADEV-2936"},
+    {"name": "watchLists", "enabled": false, "description": ""}
   ]
 }

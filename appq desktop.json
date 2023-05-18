@@ -18,6 +18,10 @@
   "calendarService": {
     "timeout": 30000
   },
+  "watchListService": {
+    "endpoint": "https://endpointsq.fxcm.com/watchlist",
+    "timeout": 10000
+  },
   "iamService": {
     "demo": {
       "authenticationEndpoint": "https://endpointsq.fxcorporate.com/iam/authenticate",
@@ -188,8 +192,8 @@
   "featureToggleSettings": [
     {"name": "myFXCM","enabled": true,"description": "PWADEV-1422"},
     {"name": "instrumentPriceChange","enabled": true,"description": "PWADEV-1187"},
-    {"name": "multiCharts","enabled": false,"description": "PWADEV-3061"},
-    {"name": "closeAllPositions","enabled": false,"description": "PWADEV-2997"},
+    {"name": "multiCharts","enabled": true,"description": "PWADEV-3061"},
+    {"name": "closeAllPositions","enabled": true,"description": "PWADEV-2997"},
     { "name": "technicalAnalyzer", "enabled": false, "description": "PWADEV-2807"},
     { "name": "economicCalendar", "enabled": false, "description": "PWADEV-1092"},
     { "name": "stockScreener", "enabled": false, "description": "PWADEV-1098"},

@@ -19,7 +19,7 @@
     "timeout": 30000
   },
   "watchListService": {
-    "endpoint": "https://endpointsq.fxcm.com/watchlist",
+    "endpoint": "https://endpoints.fxcorporate.com/watchlist",
     "timeout": 10000
   },
   "iamService": {
@@ -135,11 +135,11 @@
         "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoChs.json"
       },
       "newsService": {
-        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=10&language=zhs",
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=20&language=zhs",
         "fallbackEndpoint": "assets/news-service-fallback/news-zh.json"
       },
       "calendarService": {
-        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=zhs&description=true"
+        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=zh&description=true"
       }
     },
     "zh-hk": {
@@ -150,7 +150,7 @@
         "instrumentsFallback": "assets/symbol-service-fallback/instrumentInfoCht.json"
       },
       "newsService": {
-        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=10&language=zht",
+        "endpoint": "https://content.fxcm.news/getData?contenttype=fxcmnews&format=json&maxresults=20&language=zht",
         "fallbackEndpoint": "assets/news-service-fallback/news-zhtr.json"
       },
       "calendarService": {
@@ -190,14 +190,50 @@
     "sampleRate": 0.1
   },
   "featureToggleSettings": [
-    {"name": "myFXCM","enabled": true,"description": "PWADEV-1422"},
-    {"name": "instrumentPriceChange","enabled": true,"description": "PWADEV-1187"},
-    {"name": "multiCharts","enabled": true,"description": "PWADEV-3061"},
-    {"name": "closeAllPositions","enabled": true,"description": "PWADEV-2997"},
-    { "name": "technicalAnalyzer", "enabled": false, "description": "PWADEV-2807"},
-    { "name": "economicCalendar", "enabled": false, "description": "PWADEV-1092"},
-    { "name": "stockScreener", "enabled": false, "description": "PWADEV-1098"},
-    { "name": "cfdExpirations", "enabled": false, "description": "PWADEV-2607"},
-    { "name": "tradingHours", "enabled": false, "description": "PWADEV-2608"}
+    {
+      "name": "myFXCM",
+      "enabled": true,
+      "description": "PWADEV-1422"
+    },
+    {
+      "name": "instrumentPriceChange",
+      "enabled": false,
+      "description": "PWADEV-1187"
+    },
+    {
+      "name": "multiCharts",
+      "enabled": true,
+      "description": "PWADEV-3061"
+    },
+    {
+      "name": "closeAllPositions",
+      "enabled": true,
+      "description": "PWADEV-2997"
+    },
+    {
+      "name": "technicalAnalyzer",
+      "enabled": false,
+      "description": "PWADEV-2807"
+    },
+    {
+      "name": "economicCalendar",
+      "enabled": false,
+      "description": "PWADEV-1092"
+    },
+    {
+      "name": "stockScreener",
+      "enabled": false,
+      "description": "PWADEV-1098"
+    },
+    {
+      "name": "cfdExpirations",
+      "enabled": false,
+      "description": "PWADEV-2607"
+    },
+    {
+      "name": "tradingHours",
+      "enabled": false,
+      "description": "PWADEV-2608"
+    }
   ]
 }

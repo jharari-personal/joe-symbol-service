@@ -19,7 +19,7 @@
     "timeout": 30000
   },
   "watchListService": {
-    "endpoint": "https://endpointsq.fxcm.com/watchlist",
+    "endpoint": "https://endpoints.fxcorporate.com/watchlist",
     "timeout": 10000
   },
   "iamService": {
@@ -139,7 +139,7 @@
         "fallbackEndpoint": "assets/news-service-fallback/news-zh.json"
       },
       "calendarService": {
-        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=zhs&description=true"
+        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=zh&description=true"
       }
     },
     "zh-hk": {
@@ -190,12 +190,40 @@
     "sampleRate": 0.1
   },
   "featureToggleSettings": [
-    {"name": "myFXCM","enabled": true,"description": "PWADEV-1945"},
-    {"name": "instrumentPriceChange","enabled": true,"description": "PWADEV-3110"},
-    {"name": "closeAllPositions","enabled": true,"description": "PWADEV-3127"},
-    {"name": "economicCalendar", "enabled": true, "description": "PWADEV-2644"},
-    {"name": "news", "enabled": true, "description": "PWADEV-3058"},
-    {"name": "SignUpBox", "enabled": true, "description": "PWADEV-2936"},
-    {"name": "watchLists", "enabled": false, "description": ""}
+    {
+      "name": "myFXCM",
+      "enabled": true,
+      "description": "PWADEV-1945"
+    },
+    {
+      "name": "instrumentPriceChange",
+      "enabled": false,
+      "description": "PWADEV-3110"
+    },
+    {
+      "name": "closeAllPositions",
+      "enabled": true,
+      "description": "PWADEV-3127"
+    },
+    {
+      "name": "economicCalendar",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "name": "news",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "name": "SignUpBox",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "name": "watchLists",
+      "enabled": false,
+      "description": ""
+    }
   ]
 }

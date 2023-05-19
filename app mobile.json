@@ -135,7 +135,7 @@
         "fallbackEndpoint": "assets/news-service-fallback/news-zh.json"
       },
       "calendarService": {
-        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=zhs&description=true"
+        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=zh&description=true"
       }
     },
     "zh-hk": {
@@ -183,14 +183,39 @@
     "sentryServiceURL": "https://da4814ec6a40485985948af6c530fdde@o1336626.ingest.sentry.io/6763062",
     "enabled": true,
     "environment": "app-mobile",
+    "fcLiteLogLevel": "error",
     "sampleRate": 0.1
   },
   "featureToggleSettings": [
-    {"name": "myFXCM","enabled": true,"description": "PWADEV-1945"},
-    {"name": "instrumentPriceChange","enabled": true,"description": "PWADEV-3110"},
-    {"name": "closeAllPositions","enabled": true,"description": "PWADEV-3127"},
-    {"name": "economicCalendar", "enabled": false, "description": ""},
-    {"name": "news", "enabled": false, "description": ""},
-    { "name": "SignUpBox", "enabled": true, "description": ""}
+    {
+      "name": "myFXCM",
+      "enabled": true,
+      "description": "PWADEV-1945"
+    },
+    {
+      "name": "instrumentPriceChange",
+      "enabled": false,
+      "description": "PWADEV-3110"
+    },
+    {
+      "name": "closeAllPositions",
+      "enabled": true,
+      "description": "PWADEV-3127"
+    },
+    {
+      "name": "economicCalendar",
+      "enabled": false,
+      "description": ""
+    },
+    {
+      "name": "news",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "name": "SignUpBox",
+      "enabled": true,
+      "description": ""
+    }
   ]
 }

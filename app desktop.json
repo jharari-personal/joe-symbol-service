@@ -18,6 +18,10 @@
   "calendarService": {
     "timeout": 30000
   },
+  "watchListService": {
+    "endpoint": "https://endpoints.fxcorporate.com/watchlist",
+    "timeout": 10000
+  },
   "iamService": {
     "demo": {
       "authenticationEndpoint": "https://endpoints.fxcorporate.com/iam/authenticate",
@@ -135,7 +139,7 @@
         "fallbackEndpoint": "assets/news-service-fallback/news-zh.json"
       },
       "calendarService": {
-        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=zh&description=true"
+        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=zhs&description=true"
       }
     },
     "zh-hk": {
@@ -150,7 +154,7 @@
         "fallbackEndpoint": "assets/news-service-fallback/news-zhtr.json"
       },
       "calendarService": {
-        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=zh-hk&description=true"
+        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=zht&description=true"
       }
     },
     "default": {
@@ -180,10 +184,11 @@
   },
   "appName": "PWA Desktop",
   "loggingServiceConfiguration": {
-    "sentryServiceURL": "https://da4814ec6a40485985948af6c530fdde@o1336626.ingest.sentry.io/6763062",
+    "sentryServiceURL": "https://39aa157e5a4f4281bf84d4ba16ebc352@sentry.dev.fxcorp/9",
     "enabled": true,
     "environment": "app-desktop",
-    "sampleRate": 0.1
+    "sampleRate": 0.1,
+    "fcLiteLogLevel": "info"
   },
   "featureToggleSettings": [
     {
@@ -198,12 +203,12 @@
     },
     {
       "name": "multiCharts",
-      "enabled": false,
+      "enabled": true,
       "description": "PWADEV-3061"
     },
     {
       "name": "closeAllPositions",
-      "enabled": false,
+      "enabled": true,
       "description": "PWADEV-2997"
     },
     {

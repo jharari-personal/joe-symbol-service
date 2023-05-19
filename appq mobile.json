@@ -139,7 +139,7 @@
         "fallbackEndpoint": "assets/news-service-fallback/news-zh.json"
       },
       "calendarService": {
-        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=zh&description=true"
+        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=zhs&description=true"
       }
     },
     "zh-hk": {
@@ -154,7 +154,7 @@
         "fallbackEndpoint": "assets/news-service-fallback/news-zhtr.json"
       },
       "calendarService": {
-        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=zh-hk&description=true"
+        "endpoint": "https://content.fxcm.news/getData?contenttype=economiccalendar&format=json_pretty&view=WEEK&language=zht&description=true"
       }
     },
     "default": {
@@ -197,7 +197,7 @@
     },
     {
       "name": "instrumentPriceChange",
-      "enabled": false,
+      "enabled": true,
       "description": "PWADEV-3110"
     },
     {

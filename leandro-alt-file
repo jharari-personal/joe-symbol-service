@@ -1,44 +1,6 @@
 {
   "Categories": [
     {
-      "CategoryType": "dynamic",
-      "Icon_Dark": {
-        "png": "https://assets.fxcorporate.com/ssd/icons_white/png/icons_white_falling.png",
-        "svg": "https://assets.fxcorporate.com/ssd/icons_white/svg/icons_white_falling.svg"
-      },
-      "Icon_Light": {
-        "png": "https://assets.fxcorporate.com/ssd/icons_black/png/icons_black_falling.png",
-        "svg": "https://assets.fxcorporate.com/ssd/icons_black/svg/icons_black_falling.svg"
-      },
-      "ID": "top-movers",
-      "Name": "Top Movers",
-      "Order": "7",
-      "Symbols": []
-    },
-    {
-      "CategoryType": "dynamic",
-      "Icon_Dark": {
-        "png": "https://assets.fxcorporate.com/ssd/icons_white/png/icons_white_rising.png",
-        "svg": "https://assets.fxcorporate.com/ssd/icons_white/svg/icons_white_rising.svg"
-      },
-      "Icon_Light": {
-        "png": "https://assets.fxcorporate.com/ssd/icons_black/png/icons_black_rising.png",
-        "svg": "https://assets.fxcorporate.com/ssd/icons_black/svg/icons_black_rising.svg"
-      },
-      "ID": "popular",
-      "Name": "Popular",
-      "Order": "5",
-      "Symbols": [
-        "EUR/USD",
-        "XAU/USD",
-        "USD/JPY",
-        "US30",
-        "GER30",
-        "USOil",
-        "BTC/USD"
-      ]
-    },
-    {
       "CategoryType": "static",
       "Icon_Dark": {
         "png": "https://assets.fxcorporate.com/ssd/icons_white/png/icons_white_indices.png",
@@ -75,39 +37,6 @@
         "VOLX",
         "INDIA50",
         "USEquities"
-      ]
-    },
-    {
-      "CategoryType": "dynamic",
-      "Icon_Dark": {
-        "png": "https://assets.fxcorporate.com/ssd/icons_white/png/icons_white_hot.png",
-        "svg": "https://assets.fxcorporate.com/ssd/icons_white/svg/icons_white_hot.svg"
-      },
-      "Icon_Light": {
-        "png": "https://assets.fxcorporate.com/ssd/icons_black/png/icons_black_hot.png",
-        "svg": "https://assets.fxcorporate.com/ssd/icons_black/svg/icons_black_hot.svg"
-      },
-      "ID": "hot",
-      "Name": "Hot",
-      "Order": "3",
-      "Symbols": []
-    },
-    {
-      "CategoryType": "dynamic",
-      "Icon_Dark": {
-        "png": "https://assets.fxcorporate.com/ssd/icons_white/png/icons_white_new.png",
-        "svg": "https://assets.fxcorporate.com/ssd/icons_white/svg/icons_white_new.svg"
-      },
-      "Icon_Light": {
-        "png": "https://assets.fxcorporate.com/ssd/icons_black/png/icons_black_new.png",
-        "svg": "https://assets.fxcorporate.com/ssd/icons_black/svg/icons_black_new.svg"
-      },
-      "ID": "new",
-      "Name": "New!",
-      "Order": "1",
-      "Symbols": [
-        "USD/HKD",
-        "AUD/CNH"
       ]
     },
     {
